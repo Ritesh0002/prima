@@ -1,0 +1,90 @@
+.adv{
+    border-right: 2px solid #e8e8e8;
+    padding-right: 20px;
+    font-weight: 700 !important;
+    color: #5A5657;
+}
+.adv1{
+    font-weight: 700 !important;
+    color: #5A5657;
+}
+
+#bg2{
+    background-color: #fae4ec !important;
+    border-radius: 50% !important;
+    padding: 10px;
+}
+.Elevate{
+    font-size: 2.5rem;
+    margin-bottom: 1.05rem;
+    font-family: "DM Sans",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #454040;
+}
+.YN{
+    font-size: 1.37rem;
+    font-weight: 300;
+    color: #9b9b9b !important;
+}
+
+.currency,.decimal{
+    font-weight: 700 !important;
+    font-size: 2.75rem;
+    position: relative;
+    top: 22px;
+    font-family: "DM Sans",sans-serif;
+    line-height: 1.2;
+    color: #454040;
+}
+.hh{
+    font-size: 8rem;
+    display: flex;
+    align-items: start;
+    font-weight: 700 !important;
+}
+
+.right p{
+    color: #9c827f;
+}
+.right h6{
+    font-weight: 600
+}
+
+.WR{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1.05rem;
+    font-family: "DM Sans",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.EX{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+}
+.abg{
+    background-image: url(../img/in-avo-12-background.jpg);
+}
+
+.box_4{
+    display: flex;
+    color: white;
+    gap: 3rem;
+}
+.box_4 div{
+    background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding:5px 20px;
+}
+
+.box_4 p:first-child {
+    font-size: 2.5rem;
+  }
+  .plus1{
+    color: #dc3545;
+  }
+  

@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.blog{
+    color: brown;
+    font-weight: 900;
+}
+
+#blog_btn{
+    background-color: rgb(187, 56, 77);
+    border-radius: 20px;
+
+}
+#blog_btn a{
+   color: white; 
+   text-decoration: none;
+}
+.section2 img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.section2 ul li{
+  margin-top: 10px;
+}
+
+.ulb li{
+
+color: #db2f69;
+background-color: #f8d4e0;
+font-weight: 700;
+padding:0 10px;
+border-radius: 48%;
+margin-right: 10px;
+}
+
+.section2 .card-body li{
+    color: #454040;
+}
+  
+.section2 .card1,.card h3{
+margin-bottom: 1rem;
+font-family: "DM Sans",sans-serif;
+font-weight: 600;
+line-height: 1.2;
+color: #454040;
+padding: 15px;
+}
+
+.section2 h5{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #454040;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section2 p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #5A5657;
+    margin-bottom: 10px;
+}
+.section2 .card{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-body button{
+    padding: 8px 14px;
+    background-color: #F8D4E0;
+    font: 12px;
+    color: #db2f69;
+    margin: 4px 3px;
+    transition: all .15s ease-in-out;
+    border-radius: 30px;
+    border: none;
+}
+
+.card-body button:hover{
+    background-color: rgb(232, 235, 238);
+}

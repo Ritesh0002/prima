@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.about{
+    color: brown;
+    font-weight: 900;
+}
+
+#about_btn{
+    background-color: rgb(187, 56, 77);
+    border-radius: 20px;
+
+}
+#about_btn a{
+   color: white; 
+   text-decoration: none;
+}
+.p1{
+    color: gray;
+    font-size: 22px;
+    padding: 10px 100px;
+    
+}
+.p2{
+    padding: 10px 220px;
+}
+.img1{
+    width: 13rem;
+}
+.f410{
+
+    border-bottom: 1px solid red;
+     padding-bottom: 10px; 
+     color: red; 
+     font-size: 38px;
+     float: right;
+}
+
+.trading{
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+
+#bg3{
+    background-image: url("../img/in-avo-8-background.webp");
+}
+
+#iframe1{
+border-radius: 10px;
+box-shadow: 0 -9px 5px rgb(235, 167, 158);
+}
+
+.list-unstyled li a{
+    color: gray;
+    
+}
+.list-unstyled li{
+    margin-bottom: 20px;
+}
+.list-unstyled{
+    margin-top: 20px;
+}
+.footer-email{
+    color: hotpink;
+    font-weight: 800;
+    
+}
+
+.hstack{
+    margin-top: 20px;
+}

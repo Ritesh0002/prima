@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+  position: relative;
+  background-color:rgb(248, 235, 237) !important;
+ box-sizing: border-box;
+ overflow-x: hidden;
+ 
+  }
+  .Marquee {
+    background: rgb(212, 65, 89);
+  
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 1em;
+    color: #fff;
+    display: flex;
+    overflow-x: hidden;
+  }
+  .Marquee-content { /* justify-content: center; */
+    display: flex;
+  animation: marquee 10s linear infinite running;
+  }
+  .Marquee-content:hover {
+    animation-play-state: paused;
+  }
+  .Marquee-tag {
+    width: 200px;
+    margin: 0 0.5em;
+    padding: 0.5em;
+    background: rgba(255,255,255,0.1);
+    display: inline-flex;
+    align-items: top;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+  .Marquee-tag:hover {
+    background: rgba(255,255,255,0.5);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+ 
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translate(-50%);
+    }
+  }
+  
+#carosal{
+  margin-top: 150px;
+}
+
+
+#navbarSupportedContent ul li a{
+  color: rgb(0 0 0 / 90%);
+  font-weight: 700;
+/* margin-left: 25px; */
+}
+
+#btn_4{
+  color: #af98a0;
+  font-weight: 700;
+}
+  #demo{
+    background-image: url(../img/in-slide-bg.webp);
+  }
+
+ 
+  .lgb1{
+    background: linear-gradient(to bottom right,hotpink,pink);
+    padding: 40px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 12px pink;
+  }
+
+  #car{
+    justify-content: center;
+    align-items: center;
+    width: 70%;  
+    margin: 0 auto; 
+    margin-top: 5%;
+}
+#carousel-item {  
+  padding:5% 10%;
+  text-align: center;   
+}
+.lane{
+  color: #b72053;
+  font-family: "DM Sans",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.AI{
+  color: #9b9b9b !important;
+}
+
+
+#window{
+  font-size: 20px;
+  color: gray;
+}
+
+#up_arrow{
+  position: absolute;
+  bottom: 10px;
+  right: 22px;
+  display: inline-block;
+  background-color: hotpink;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+footer{
+  position: relative;
+  background-color: rgb(248, 242, 230);
+}
+
+.p4{
+  
+   color: #5A5657; 
+   font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.counter{
+  font-size: 2.5rem;
+  font-family: "DM Sans",sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #454040;
+}
+.plus{
+  font-weight: 700;
+}
+.vs{
+  font-family: "DM Sans",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #454040;
+}
+
+.find{ 
+  margin-bottom: 1.05rem;
+font-family: "DM Sans",sans-serif;
+font-weight: 700;
+line-height: 1.2;
+color: #454040;
+font-size: 2rem;
+}
+
+.find1{
+  color: #5A5657;
+}
+#carousel-item h2{
+  font-family: "DM Sans",sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #454040;
+}
+.Avop{
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #9b9b9b !important;
+}
+
+.btn-5{
+  background-color: #DB2F69;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+
+
+.btn-social-icon i{
+  background-color: lightpink;
+  border-radius: 50%;
+  padding: 10px;
+  color: hotpink;
+}
+
+@media screen and (min-width: 900px) {
+  .slider_content1{
+    width: 35% !important;
+    margin-left: -90px;
+    margin-top: -330px;
+  }
+  
+  .slider_img1{
+    width:42% !important;
+    margin-left: 600px;
+  }
+  
+  .h12{
+    margin-top: -300px;
+    color: #951e3d;
+    line-height: 3.75rem;
+    font-weight: 700;
+    font-size: 3.5rem;
+  }
+}
+
+.h12{
+  
+  color: #951e3d;
+  line-height: 3.75rem;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.h11{
+  color: #951e3d;
+  line-height: 3.75rem;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+#bg3{
+  background-image: url("../img/in-avo-8-background.webp");
+}
+
+#iframe1{
+border-radius: 10px;
+box-shadow: 0 -9px 5px rgb(235, 167, 158);
+}
+
+.list-unstyled li a{
+  color: gray;
+  
+}
+.list-unstyled li{
+  margin-bottom: 20px;
+}
+.list-unstyled{
+  margin-top: 20px;
+}
+.footer-email{
+  color: hotpink;
+  font-weight: 800;
+  
+}
+
+.hstack{
+  margin-top: 20px;
+}
+
+
+.trade-warning{
+  width: 70%;
+  color: rgba(219,47,105,.7);
+  border: 1px solid rgba(219,47,105,.4);
+  border-radius: 10px;
+  margin: 0 auto 40px auto;
+  padding: 18px 20px;
+  text-align: left;
+}
+
+
+
+
+
+
+

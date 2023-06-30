@@ -1,0 +1,18 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+.btn1 a{
+    color: white;
+}
+
+@media (min-width: 900px) {
+    #top{
+      margin-top: -167px;
+    }
+  }

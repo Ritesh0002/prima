@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.body{
+    background-color: #e0d5db !important;
+}
+
+#bg1{
+    background-color: lightpink;
+    border-radius: 50%;
+    padding: 15px;
+}
+#g1{
+    color: gray;
+    margin-bottom: 20px;
+}
+.pinkb{
+border: 1px solid rgb(207, 11, 109);
+padding: 10px 18px;
+border-radius: 25px;
+color: rgb(207, 11, 109);
+font-weight: bold;
+}
+.pinkb:hover{
+    background-color: rgb(207, 11, 109);
+    color: white;
+}
+.br1{
+    border-radius: 10px;
+ box-sizing: content-box;
+ width: 100%;
+ padding: 25px;
+ background-image: linear-gradient(rgb(247, 240, 244) 80%,rgb(247, 220, 224));
+ box-shadow: 0 -9px 5px whitesmoke;
+    
+}
+.br1 p{
+    color: rgb(70, 66, 66);
+}
+.textp{
+    color: lightpink;
+    text-align: center;
+    margin-top: 13px;
+    padding-right: 51px;
+    font-weight: 800;
+}
+.live{
+    padding: 2px 10px;
+    font-weight: 800;
+}
+.p2{
+    padding: 2px 10px;
+    font-size: 21px;
+    color: gray;
+}
+
+.tradingview-widget-copyright{
+    border-radius: 15px !important;
+}
+#stock{
+    
+}
+
+
+#bg3{
+    background-image: url("../img/in-avo-8-background.webp");
+}
+
+#iframe1{
+border-radius: 10px;
+box-shadow: 0 -9px 5px rgb(235, 167, 158);
+}
+
+.list-unstyled li a{
+    color: gray;
+    
+}
+.list-unstyled li{
+    margin-bottom: 20px;
+}
+.list-unstyled{
+    margin-top: 20px;
+}
+.footer-email{
+    color: hotpink;
+    font-weight: 800;
+    
+}
+
+.hstack{
+    margin-top: 20px;
+}
